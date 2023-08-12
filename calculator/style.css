@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main {
+    justify-content: flex-start;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    max-width: 330px;
+    width: 100%;
+}
+
+.buttons {
+    background-color: #5a5a5a;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    padding: 40px 0;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 70px;
+    box-sizing: border-box;
+}
+
+.buttons:hover {
+    background-color: #7a7a7a;
+    transform: scale(1.05);
+}
+
+#screen {
+    width: 85%;
+    grid-column: span 4;
+    text-align: right;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #444;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    height: 70px;
+}
+
+
+#buttonsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+#butr {
+    background-color: #5c802f;
+    color: white;
+}
